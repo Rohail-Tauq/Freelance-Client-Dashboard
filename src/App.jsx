@@ -13,8 +13,6 @@ export default function App() {
     <div className="flex h-screen bg-gray-100">
       {/* Sidebar */}
       <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
-
-      {/* Main Content */}
       <div className="flex flex-col flex-1">
         <Header onMenuClick={() => setSidebarOpen(true)} />
         <main className="p-6 overflow-y-auto">

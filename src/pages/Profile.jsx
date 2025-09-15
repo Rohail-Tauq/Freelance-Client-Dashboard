@@ -8,7 +8,7 @@ export default function Profile() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setUsername(name); // update global state
+    setUsername(name);
     alert("Profile updated!");
   };
 

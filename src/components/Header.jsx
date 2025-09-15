@@ -7,7 +7,6 @@ export default function Header({ onMenuClick }) {
 
   return (
     <header className="bg-white shadow-md p-4 flex justify-between items-center">
-      {/* Hamburger menu for mobile */}
       <button
         className="md:hidden text-gray-600 hover:text-gray-800"
         onClick={onMenuClick}
