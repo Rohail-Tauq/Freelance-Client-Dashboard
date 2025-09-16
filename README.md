@@ -1,12 +1,46 @@
-# React + Vite
+Freelance Client Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive multi-page admin dashboard built with React.js, React Router, TailwindCSS, and Recharts.
+This project simulates a freelance client’s dashboard with an overview page, projects list, and profile settings.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Overview Page
 
-## Expanding the ESLint configuration
+Summary cards for Total Projects, Earnings, Tasks Due
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Recent activity list
+
+Earnings chart (Recharts)
+
+Projects Page
+
+Displays a list of projects with name, status, deadline
+
+Table / card layout for readability
+
+Profile Settings Page
+
+Update Name, Email, Password (frontend only)
+
+Dynamic username displayed in header (Hello, [username])
+
+UI Layout
+
+Consistent sidebar navigation and top header across all pages
+
+Responsive design: mobile-friendly sidebar toggle + adaptive layouts
+
+State Management
+
+Context API used for user profile state (name displayed dynamically)
+
+🛠️ Tech Stack
+
+React.js – Frontend framework
+
+React Router – Multi-page routing
+
+TailwindCSS – Styling & responsive design
+
+Recharts – Data visualization (charts)
